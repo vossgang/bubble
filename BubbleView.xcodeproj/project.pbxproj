@@ -21,6 +21,10 @@
 		C965036F18C3FD9E00916EB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C965035118C3FD9E00916EB9 /* UIKit.framework */; };
 		C965037718C3FD9E00916EB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C965037518C3FD9E00916EB9 /* InfoPlist.strings */; };
 		C965037918C3FD9E00916EB9 /* BubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C965037818C3FD9E00916EB9 /* BubbleViewTests.m */; };
+		C965038418C3FDB800916EB9 /* MVBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C965038318C3FDB800916EB9 /* MVBubbleView.m */; };
+		C965038A18C3FEB700916EB9 /* b5.png in Resources */ = {isa = PBXBuildFile; fileRef = C965038618C3FEB700916EB9 /* b5.png */; };
+		C965038E18C3FEC000916EB9 /* DB3.png in Resources */ = {isa = PBXBuildFile; fileRef = C965038D18C3FEC000916EB9 /* DB3.png */; };
+		C96503CA18C40A2D00916EB9 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = C96503C918C40A2D00916EB9 /* Bubble.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		C965037418C3FD9E00916EB9 /* BubbleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleViewTests-Info.plist"; sourceTree = "<group>"; };
 		C965037618C3FD9E00916EB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C965037818C3FD9E00916EB9 /* BubbleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleViewTests.m; sourceTree = "<group>"; };
+		C965038218C3FDB800916EB9 /* MVBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVBubbleView.h; path = ../MVBubbleView.h; sourceTree = "<group>"; };
+		C965038318C3FDB800916EB9 /* MVBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVBubbleView.m; path = ../MVBubbleView.m; sourceTree = "<group>"; };
+		C965038618C3FEB700916EB9 /* b5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b5.png; sourceTree = "<group>"; };
+		C965038D18C3FEC000916EB9 /* DB3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DB3.png; sourceTree = "<group>"; };
+		C96503C818C40A2D00916EB9 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bubble.h; path = ../Bubble.h; sourceTree = "<group>"; };
+		C96503C918C40A2D00916EB9 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bubble.m; path = ../Bubble.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,10 @@
 		C965035318C3FD9E00916EB9 /* BubbleView */ = {
 			isa = PBXGroup;
 			children = (
+				C96503C818C40A2D00916EB9 /* Bubble.h */,
+				C96503C918C40A2D00916EB9 /* Bubble.m */,
+				C965038218C3FDB800916EB9 /* MVBubbleView.h */,
+				C965038318C3FDB800916EB9 /* MVBubbleView.m */,
 				C965035C18C3FD9E00916EB9 /* MVAppDelegate.h */,
 				C965035D18C3FD9E00916EB9 /* MVAppDelegate.m */,
 				C965035F18C3FD9E00916EB9 /* Main.storyboard */,
@@ -126,6 +140,8 @@
 		C965035418C3FD9E00916EB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C965038618C3FEB700916EB9 /* b5.png */,
+				C965038D18C3FEC000916EB9 /* DB3.png */,
 				C965035518C3FD9E00916EB9 /* BubbleView-Info.plist */,
 				C965035618C3FD9E00916EB9 /* InfoPlist.strings */,
 				C965035918C3FD9E00916EB9 /* main.m */,
@@ -229,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C965038A18C3FEB700916EB9 /* b5.png in Resources */,
 				C965036618C3FD9E00916EB9 /* Images.xcassets in Resources */,
+				C965038E18C3FEC000916EB9 /* DB3.png in Resources */,
 				C965035818C3FD9E00916EB9 /* InfoPlist.strings in Resources */,
 				C965036118C3FD9E00916EB9 /* Main.storyboard in Resources */,
 			);
@@ -252,7 +270,9 @@
 			files = (
 				C965035A18C3FD9E00916EB9 /* main.m in Sources */,
 				C965036418C3FD9E00916EB9 /* MVViewController.m in Sources */,
+				C96503CA18C40A2D00916EB9 /* Bubble.m in Sources */,
 				C965035E18C3FD9E00916EB9 /* MVAppDelegate.m in Sources */,
+				C965038418C3FDB800916EB9 /* MVBubbleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +481,7 @@
 				C965037E18C3FD9E00916EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C965037F18C3FD9E00916EB9 /* Build configuration list for PBXNativeTarget "BubbleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +490,7 @@
 				C965038118C3FD9E00916EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
