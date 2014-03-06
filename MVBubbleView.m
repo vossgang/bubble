@@ -19,7 +19,6 @@
     if (self) {
     
         CGRect newFrame = frame;
-        
         newFrame.origin.x = 0;
         newFrame.origin.y = 0;
         
@@ -133,8 +132,6 @@
     }
     
 }
-
-
 
 
 
